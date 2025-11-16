@@ -1,0 +1,455 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "century-gothic" ,Arial, Helvetica, sans-serif;
+}
+
+
+
+
+header{
+    height: 15vh;
+    background-color: black;
+    width: 100%;
+}
+
+li{
+    display: inline-block;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+li a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin:2vw;
+
+}
+
+nav div{
+    margin-top: 2%;
+}
+
+.maclass1{
+    margin-right:500px ;
+}
+
+span{
+    color: aqua;
+}
+
+.sec1{
+    height: 400px;
+    margin: -14px;
+    width: 100%;
+}
+ img{
+    height: 300px;
+    width: 100%;
+    margin-top: 40px;
+
+    
+    
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.p1{
+    font-size: 1.9em;
+    margin-right: 15%;
+    
+    
+}
+
+button{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(15, 222, 222);
+    position: relative;
+    bottom: 100px;
+    left: 400px;
+} 
+
+button a{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+}
+
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    color:black;
+    font-weight: 50;
+    font-size: 60px;
+}
+
+.sec2{
+   
+    background-color:whitesmoke;
+    height: 550px;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 9vw;
+    border-left: 1px ridge black;
+    border-bottom: 1px ridge black;
+    box-shadow: 5px 5px 3px black;
+
+}
+
+
+.divpropos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec2 p{
+    font-size:1.6em ;
+    
+}
+
+.sec2 button {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(15, 222, 222);
+    position: relative;
+    top:20px;
+    left:5px;
+    background-color: blue;
+} 
+
+
+.sec2 img {
+    height:400px;
+    width: 400px;
+    border: 10px solid aqua;
+    border-radius: 800px;
+    
+}
+
+.sec3{
+    height:550px;
+   
+    padding:20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec3 div{
+    background-color: whitesmoke;
+     border-radius: 10px;
+     padding: 100px;
+     box-shadow: 0px 0px 5px;
+     height: 150px;
+     width: 300px;
+     padding-bottom: 150px;
+      margin: auto;
+     
+    
+}
+
+.sec3 a{
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    left: 55px;
+    background-color: rgb(15, 222, 222);
+    padding: 20px;
+    border-radius: 10px;
+     text-align: center;
+    margin-top: -30px;
+    width: 50%;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: 2px outset black;
+
+    
+}
+
+.para1{
+    font-size: 1.3em;
+    text-align: center;
+}
+
+
+
+.para2{
+    font-size: 1.3em;
+    text-align: center;
+}
+
+/* section 4 */
+.sec4{
+    background-color: gainsboro;
+    padding-bottom: 100px;
+
+}
+
+.divcom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+
+.com{
+    background-color:white;
+    height: 350px;
+    width: 30%;
+    border-radius: 15px;
+    padding-left: 45px;
+    
+}
+
+.barrefat{
+    background-color: gray;
+    height: 20px;
+    width: 80%;
+    border-radius: 10px;
+}
+.petit1, .petit2,.petit3,.petit4,.petit5,.petit5,.petit6,.petit7{
+    background-color: green;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.petit1{
+    width: 65%;
+}
+
+
+.petit2{
+    width: 58%;
+}
+
+
+
+.petit3{
+    width: 85%;
+}
+
+
+
+.petit4{
+    width: 95%;
+}
+
+
+
+.petit5{
+    width: 60%;
+}
+
+
+
+.petit6{
+    width: 50%;
+}
+
+
+
+
+.petit7{
+    width: 98%;
+}
+
+
+
+
+.divcom p{
+    font-size: 1.2em;
+    margin-bottom: 1px;
+}
+
+.divcom h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* pied de page */
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    height: 500px;
+    padding: 5px 5px 150px 5px;
+}
+
+footer .monpara{
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+form{
+    text-align: center;
+
+}
+
+.lab1{
+    position: relative;
+    bottom: 30px;
+    left: 84px;
+}
+
+.lab2{
+    position: relative;
+    bottom: 30px;
+    left: 70px;
+
+}
+
+.lab3{
+    position: relative;
+    bottom: 30px;
+    left: 70px;
+
+
+}
+
+
+.ml{
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid turquoise;
+    height: 25px;
+    margin-bottom: 40px;
+}
+
+form button{
+    position: relative;
+    top:25px;
+    left:0px;
+    width: 150px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.pere{
+    position: relative;
+    left: 5px;
+    
+}
+
+
+.mi{
+    width: 685px;
+    border-radius: 10px;
+    border: 1px solid turquoise;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.mk{
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid turquoise;
+    height: 25px;
+    margin-bottom: 40px;
+    position: relative;
+    left: -8px;
+
+}
+
+textarea{
+    position: relative;
+    left: 40px;
+    border-radius: 10px;
+    border: 1px solid turquoise;
+
+
+}
+
+
+.le p{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.le span{
+    color: gold;
+}
+
+/* animation css */
+
+.sec3{
+    opacity: 0;
+    transform: translateX(40px);
+    transition: all 3s ease;
+}
+
+.section-visible{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.sec4{
+    opacity: 0;
+    transform: translateX(40px);
+    transition: all 2s ease;
+}
+
+.section{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+.sec1{
+    opacity: 0;
+    transform: translateX(40px);
+    transition: all 1s ease;
+}
+
+.section1{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+
+.sec2{
+    opacity: 0;
+    transform: translateX(40px);
+    transition: all 0.5s ease;
+}
+
+.section2{
+    opacity: 1;
+    transform: translateX(0);
+}
